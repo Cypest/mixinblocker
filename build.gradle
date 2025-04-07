@@ -25,3 +25,9 @@ loom {
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 }
+
+jar {
+    archiveBaseName.set('mixinblocker')
+    archiveVersion.set('1.0.0')
+    from(sourceSets.main.output)
+}
