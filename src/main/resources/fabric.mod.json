@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "mixinblocker",
+  "version": "1.0.0",
+  "name": "MixinBlocker",
+  "entrypoints": {
+    "preLaunch": ["mixinblocker.MixinBlocker"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0"
+  }
+}
