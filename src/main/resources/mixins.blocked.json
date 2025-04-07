@@ -1,0 +1,9 @@
+{
+  "blocked": [
+    "necronomicon-common.mixins.json:item.AnimatedItemNameMixin",
+    "archers_arsenal.mixins.json:FOVMixin",
+    "libertyvillagers.mixins.json:ModelPredicateProviderRegistryMixin",
+    "notenoughcrashes.fabric.mixins.json:iris.SilentNEC",
+    "snowrealmagic.mixins.json:sereneseasons.RandomUpdateHandlerMixin"
+  ]
+}

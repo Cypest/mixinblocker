@@ -4,9 +4,14 @@
   "version": "1.0.0",
   "name": "MixinBlocker",
   "entrypoints": {
-    "preLaunch": ["mixinblocker.MixinBlocker"]
+    "preLaunch": [
+      "mixinblocker.MixinBlocker"
+    ]
   },
   "depends": {
     "fabricloader": ">=0.14.0"
+  },
+  "custom": {
+    "mixinblocker:blocked_mixins": "mixins.blocked.json"
   }
 }
