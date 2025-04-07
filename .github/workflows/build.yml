@@ -21,10 +21,10 @@ jobs:
         uses: gradle/gradle-build-action@v2
 
       - name: Build mod
-        run: ./gradlew build
-
+        run: ./gradlew jar
+      
       - name: Upload Jar
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: MixinBlocker Jar
-          path: build/libs/*.jar
+          path: '**/build/libs/*.jar'
