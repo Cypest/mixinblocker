@@ -22,10 +22,9 @@ jobs:
 
       - name: Build mod
         run: ./gradlew jar
-        working-directory: mixinblocker_source
       
       - name: Upload Jar
         uses: actions/upload-artifact@v4
         with:
           name: MixinBlocker Jar
-          path: mixinblocker_source/build/libs/*.jar
+          path: build/libs/*.jar
